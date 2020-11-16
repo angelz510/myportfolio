@@ -4,6 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import bart from '../../assets/carousel/bart.jpg';
 import oakport from '../../assets/carousel/oakport.jpg';
+import ScrollDown from '../scroll-down/scroll-down';
 
 const MyCarousel = () => {
   return (
@@ -17,6 +18,7 @@ const MyCarousel = () => {
           <img className="d-block w-100" src={bart} alt="Second slide"/>
         </Carousel.Item>
       </Carousel>
+      <ScrollDown />
     </div>
   )
 }
