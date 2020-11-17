@@ -5,8 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
-import Profile from '../../assets/profile/Profile.jpg'
+import Button from 'react-bootstrap/Button'
 
+import Profile from '../../assets/profile/Profile.jpg'
 
 const About = () => {
   return (
@@ -34,8 +35,21 @@ const About = () => {
             <br />When I'm not coding, I am playing soccer but due to stay at home orders I am often exploring Hyrule or Galar.
           </Row>
 
+          {/* Buttons Row */}
           <Row>
-            {/* Buttons */}
+            <Col className='d-flex justify-content-center flex-wrap'>
+              <div>
+                <a href='#contact'>
+                  <Button className='m-2' variant="outline-primary">Contact</Button>
+                </a>
+              </div>
+
+              <div>
+                <a href='https://www.linkedin.com/in/arodriguezz/'>
+                  <Button className='m-2' variant="outline-primary">LinkedIn</Button>
+                </a>
+              </div>
+            </Col>
           </Row>
         </Col>
       </Row>
