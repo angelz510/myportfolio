@@ -10,6 +10,7 @@ import About from './pages/about/about';
 import Container from 'react-bootstrap/Container';
 import { Parallax } from 'react-parallax';
 import Fade from 'react-reveal/Fade';
+import Bgimage from './assets/parallax/bg.jpg';
 
 const App = () => {
   return (
@@ -20,13 +21,13 @@ const App = () => {
 
     <div>
       <Parallax 
-        blur={{ min: -1000, max: 1000 }} 
-        bgImage={require("./assets/parallax/bg.jpg")} 
+        blur={{ min: -30, max: 30 }} 
+        bgImage={Bgimage} 
         bgImageAlt="geometric" 
         strength={-200}
       >
         <Container className='container-box rounded'>
-          <Fade duration={500}>
+          <Fade duration={1000}>
             <About />
           </Fade>
         </Container>
