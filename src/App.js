@@ -3,6 +3,7 @@ import React from 'react';
 import MyNavbar from "./components/navbar/navbar";
 import MyCarousel from './components/carousel/carousel';
 import TitleMsg from './components/title-msg/title-msg';
+import About from './pages/about/about';
 import './App.css';
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
     <MyNavbar />
     <MyCarousel />
     <TitleMsg />
+    <About />
     </div>);
 };
 
