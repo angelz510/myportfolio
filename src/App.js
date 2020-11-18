@@ -6,6 +6,7 @@ import MyCarousel from './components/carousel/carousel';
 import TitleMsg from './components/title-msg/title-msg';
 //pages
 import About from './pages/about/about';
+import Skills from './pages/skills/skills';
 
 import Container from 'react-bootstrap/Container';
 import { Parallax } from 'react-parallax';
@@ -32,6 +33,10 @@ const App = () => {
           </Fade>
         </Container>
       </Parallax>
+    </div>
+
+    <div>
+      <Skills />
     </div>
   </div>);
 };
