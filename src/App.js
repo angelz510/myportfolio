@@ -36,7 +36,11 @@ const App = () => {
     </div>
 
     <div>
-      <Skills />
+      <Container className='container-box rounded'>
+        <Fade duration={1000}>
+          <Skills />
+        </Fade>
+      </Container>
     </div>
   </div>);
 };

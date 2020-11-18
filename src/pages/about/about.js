@@ -13,7 +13,7 @@ const About = () => {
   return (
     <div id='about'>
       <div className='about'>
-      <h1 className='pt-3 text-center font-details pb-3'>About Me</h1>
+      <h1 className='pt-3 text-center font-details pb-3 aboutMe'>About Me</h1>
       <Container>
         <Row className='pt-3 pb-5 align-items-center'>
 
@@ -41,19 +41,19 @@ const About = () => {
               <Col className='d-flex justify-content-center flex-wrap'>
                 <div>
                   <a href="#contact">
-                    <Button className='m-2' variant="outline-primary">Contact</Button>
+                    <Button className='m-2' variant="outline-dark">Contact</Button>
                   </a>
                 </div>
 
                 <div>
                   <a href='https://www.linkedin.com/in/arodriguezz/'>
-                    <Button className='m-2' variant="outline-primary">Resume</Button>
+                    <Button className='m-2' variant="outline-dark">Resume</Button>
                   </a>
                 </div>
 
                 <div>
                   <a href='https://www.linkedin.com/in/arodriguezz/'>
-                    <Button className='m-2' variant="outline-primary">LinkedIn</Button>
+                    <Button className='m-2' variant="outline-dark">LinkedIn</Button>
                   </a>
                 </div>
               </Col>
