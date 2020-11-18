@@ -2,8 +2,9 @@ import React from 'react';
 import './carousel.css';
 import Carousel from 'react-bootstrap/Carousel';
 
-import bart from '../../assets/carousel/bart.jpg';
 import oakport from '../../assets/carousel/oakport.jpg';
+import wireframes from '../../assets/carousel/wireframes.jpg';
+import keyboard from '../../assets/carousel/keyboard.jpg';
 import ScrollDown from '../scroll-down/scroll-down';
 
 const MyCarousel = () => {
@@ -15,7 +16,11 @@ const MyCarousel = () => {
         </Carousel.Item>
 
         <Carousel.Item>
-          <img className="d-block w-100" src={bart} alt="Second slide"/>
+          <img className="d-block w-100" src={wireframes} alt="Second slide"/>
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img className="d-block w-100" src={keyboard} alt="Second slide"/>
         </Carousel.Item>
       </Carousel>
       <ScrollDown />

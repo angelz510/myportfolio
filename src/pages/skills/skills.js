@@ -11,7 +11,7 @@ import Image from 'react-bootstrap/Image';
 const Skills = () => {
   return (
     <div id='skills' className='pt-3 pb-3'>
-      <h1 className='text-center font-details-b pb-4'>Technologies Used</h1>
+      <h1 className='text-center font-details-b pb-4'>Skills</h1>
       <CardDeck>
         <Row className='d-flex justify-content-around'>
 
