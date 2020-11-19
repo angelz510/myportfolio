@@ -1,6 +1,8 @@
 import React from 'react';
 import './projects.css';
 
+import hangryimg from '../../assets/projects/hangryimg.png';
+import rps from '../../assets/projects/rps.png';
 
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
@@ -11,7 +13,7 @@ const Projects = () => {
       <h1 className='text-center font-details-b pb-4'>Projects</h1>
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src={hangryimg}/>
           <Card.Body>
             <Card.Title>
               <a href='https://github.com/angelz510/Hangry'>
@@ -46,7 +48,7 @@ const Projects = () => {
         </Card>
 
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src={rps}/>
           <Card.Body>
             <Card.Title>
               <a href='https://pages.git.generalassemb.ly/angelz510/Project-0-Rock-Paper-Scissors/'>
