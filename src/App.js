@@ -4,6 +4,7 @@ import './App.css';
 import MyNavbar from "./components/navbar/navbar";
 import MyCarousel from './components/carousel/carousel';
 import TitleMsg from './components/title-msg/title-msg';
+import Projects from './components/projects/projects';
 //pages
 import About from './pages/about/about';
 import Skills from './pages/skills/skills';
@@ -41,6 +42,15 @@ const App = () => {
         <Fade duration={1000}>
           <hr />
           <Skills />
+        </Fade>
+      </Container>
+    </div>
+
+    <div>
+      <Container className='container-box rounded'>
+        <Fade duration={1000}>
+          <hr />
+          <Projects />
         </Fade>
       </Container>
     </div>
