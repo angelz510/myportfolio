@@ -46,13 +46,13 @@ const About = () => {
                 </div>
 
                 <div>
-                  <a href='https://www.linkedin.com/in/arodriguezz/'>
+                  <a href='https://docs.google.com/document/d/1yaUaGuHzyoqIG4JCSJauXez4Dj0PmECMdN1ASsFSQLg/edit?usp=sharing' target="_blank" rel="noopener noreferrer">
                     <Button className='m-2' variant="outline-dark">Resume</Button>
                   </a>
                 </div>
 
                 <div>
-                  <a href='https://www.linkedin.com/in/arodriguezz/'>
+                  <a href='https://www.linkedin.com/in/arodriguezz/' target="_blank" rel="noopener noreferrer">
                     <Button className='m-2' variant="outline-dark">LinkedIn</Button>
                   </a>
                 </div>

@@ -8,11 +8,13 @@ import Projects from './components/projects/projects';
 //pages
 import About from './pages/about/about';
 import Skills from './pages/skills/skills';
+import Contact from './pages/contact/contact';
 
 import Container from 'react-bootstrap/Container';
 import { Parallax } from 'react-parallax';
 import Fade from 'react-reveal/Fade';
 import Bgimage from './assets/parallax/bg.jpg';
+
 
 const App = () => {
   return (
@@ -52,6 +54,13 @@ const App = () => {
           <hr />
           <Projects />
         </Fade>
+      </Container>
+    </div>
+
+    <div>
+      <Container className='container-box rounded'>
+        <hr />
+        <Contact />
       </Container>
     </div>
   </div>);

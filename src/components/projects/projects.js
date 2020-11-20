@@ -29,7 +29,7 @@ const Projects = () => {
           </Card.Body>
           <Card.Footer className='card-footer'>
             <small className="text-muted">Tech used: HTML, CSS, JS, Mongoose, Node, Bootstrap, MongoDB.</small>
-            <a href='https://github.com/angelz510/Hangry'>
+            <a href='https://github.com/angelz510/Hangry' target="_blank" rel="noopener noreferrer">
               <Button className='m-2 btn-sm' variant="outline-dark" align="center">Source Code</Button>
             </a>
           </Card.Footer>
@@ -50,14 +50,14 @@ const Projects = () => {
           </Card.Body>
           <Card.Footer className='card-footer'>
             <small className="text-muted">Tech used: React.js, MongoDB, Materialize, real time API calls.</small>
-            <a href='https://git.generalassemb.ly/angelz510/dreamlink-frontend'>
+            <a href='https://git.generalassemb.ly/angelz510/dreamlink-frontend' target="_blank" rel="noopener noreferrer">
               <Button className='m-2 btn-sm' variant="outline-dark">Source Code</Button>
             </a>
           </Card.Footer>
         </Card>
 
         <Card>
-          <a href='https://pages.git.generalassemb.ly/angelz510/Project-0-Rock-Paper-Scissors/'>
+          <a href='https://pages.git.generalassemb.ly/angelz510/Project-0-Rock-Paper-Scissors/' target="_blank" rel="noopener noreferrer">
             <Card.Img variant="top" src={rps} className='rpsImg' />
           </a>
           <Card.Body>
@@ -72,7 +72,7 @@ const Projects = () => {
           </Card.Body>
           <Card.Footer className='card-footer'>
             <small className="text-muted">Tech used: HTML, JS, CSS.</small>
-            <a href='https://github.com/angelz510/Project-0-RPS'>
+            <a href='https://github.com/angelz510/Project-0-RPS' target="_blank" rel="noopener noreferrer">
               <Button className='m-2 btn-sm' variant="outline-dark">Source Code</Button>
             </a>
           </Card.Footer>
