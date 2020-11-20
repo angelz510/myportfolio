@@ -3,9 +3,11 @@ import './projects.css';
 
 import hangryimg from '../../assets/projects/hangryimg.png';
 import rps from '../../assets/projects/rps.png';
+import dreamlink from '../../assets/projects/dreamlink.png';
 
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
+import Button from 'react-bootstrap/Button';
 
 const Projects = () => {
   return (
@@ -13,12 +15,10 @@ const Projects = () => {
       <h1 className='text-center font-details-b pb-4'>Projects</h1>
       <CardDeck>
         <Card>
-          <Card.Img variant="top" src={hangryimg}/>
+          <Card.Img variant="top" src={hangryimg} className='projectImg' />
           <Card.Body>
-            <Card.Title>
-              <a href='https://github.com/angelz510/Hangry'>
-                Hangry!
-              </a>
+            <Card.Title align='center'>
+              Hangry!
             </Card.Title>
             <Card.Text>
               Returns nearest food options depending on hunger level. 
@@ -27,15 +27,63 @@ const Projects = () => {
               <br />Level 5, places within walking distance. 
             </Card.Text>
           </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">HTML, CSS, JS, Mongoose, Node, Bootstrap, MongoDB</small>
+          <Card.Footer className='card-footer'>
+            <small className="text-muted">Tech used: HTML, CSS, JS, Mongoose, Node, Bootstrap, MongoDB.</small>
+            <a href='https://github.com/angelz510/Hangry'>
+              <Button className='m-2 btn-sm' variant="outline-dark" align="center">Source Code</Button>
+            </a>
           </Card.Footer>
         </Card>
 
         <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
+          <Card.Img variant="top" src={dreamlink} className='projectImg' />
           <Card.Body>
-            <Card.Title>Gif Machine</Card.Title>
+            <Card.Title align='center'>
+              DreamLink
+            </Card.Title>
+            <Card.Text>
+              Beta project for community. DreamLink is a private scholarship hub for undocumented students.
+              <br />Students can sign in/sign up.
+              <br />Admin have full CRUD for scholarships.
+              <br />Scholarships are seeded that from list of scholarships provided by California non-profits.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer className='card-footer'>
+            <small className="text-muted">Tech used: React.js, MongoDB, Materialize, real time API calls.</small>
+            <a href='https://git.generalassemb.ly/angelz510/dreamlink-frontend'>
+              <Button className='m-2 btn-sm' variant="outline-dark">Source Code</Button>
+            </a>
+          </Card.Footer>
+        </Card>
+
+        <Card>
+          <a href='https://pages.git.generalassemb.ly/angelz510/Project-0-Rock-Paper-Scissors/'>
+            <Card.Img variant="top" src={rps} className='rpsImg' />
+          </a>
+          <Card.Body>
+            <Card.Title align='center'>
+              Rock, Paper Scissors
+            </Card.Title>
+            <Card.Text>
+              Simple game of Rock, Paper, Scissors where you play versus the computer.
+              <br/>Best out of 3 wins.
+              <br /><strong>Click image to play!</strong>
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer className='card-footer'>
+            <small className="text-muted">Tech used: HTML, JS, CSS.</small>
+            <a href='https://github.com/angelz510/Project-0-RPS'>
+              <Button className='m-2 btn-sm' variant="outline-dark">Source Code</Button>
+            </a>
+          </Card.Footer>
+        </Card>
+      </CardDeck>
+<br />
+      <CardDeck>
+        {/* <Card>
+          <Card.Img variant="top" src="holder.js/100px160" className='projectImg' />
+          <Card.Body>
+            <Card.Title align='center'>Gif Machine</Card.Title>
             <Card.Text>
               This is a wider card with supporting text below as a natural lead-in to
               additional content. This card has even longer content than the first to
@@ -45,47 +93,7 @@ const Projects = () => {
           <Card.Footer>
             <small className="text-muted">Real time API calls</small>
           </Card.Footer>
-        </Card>
-
-        <Card>
-          <Card.Img variant="top" src={rps}/>
-          <Card.Body>
-            <Card.Title>
-              <a href='https://pages.git.generalassemb.ly/angelz510/Project-0-Rock-Paper-Scissors/'>
-                Rock, Paper Scissors
-              </a>
-            </Card.Title>
-            <Card.Text>
-              Simple game of Rock, Paper, Scissors where you play versus the computer.
-              <br/>Best out of 3 wins.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">HTML, JS, CSS</small>
-          </Card.Footer>
-        </Card>
-      </CardDeck>
-<br />
-      <CardDeck>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>
-              <a href='https://git.generalassemb.ly/angelz510/dreamlink-frontend'>
-                DreamLink
-              </a>
-            </Card.Title>
-            <Card.Text>
-              Beta project for community. DreamLink is a private scholarship hub for undocumented students.
-              <br />Students can sign in/sign up.
-              <br />Admin have full CRUD for scholarships.
-              <br />Scholarships are seeded that from list of scholarships provided by California non-profits.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">MERN stack, Materialize, real time API calls</small>
-          </Card.Footer>
-        </Card>
+        </Card> */}
 
       </CardDeck>
     </div>

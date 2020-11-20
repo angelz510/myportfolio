@@ -19,3 +19,11 @@
 .image-style1 {
   width: 3em;
 }
+
+.rpsImg {
+  cursor: pointer;
+}
+
+.card-footer {
+  text-align: center;
+}
