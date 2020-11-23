@@ -19,9 +19,9 @@ import Bgimage from './assets/parallax/bg.jpg';
 const App = () => {
   return (
   <div className='App' style={{ position: 'relative' }}>
-    <MyNavbar />
     <MyCarousel />
     <TitleMsg />
+    <MyNavbar />
 
     <div>
       <Parallax 
@@ -30,19 +30,19 @@ const App = () => {
         bgImageAlt="geometric" 
         strength={-200}
       >
-        <Container className='container-box rounded'>
-          <Fade duration={1000}>
-            <hr />
-            <About />
-          </Fade>
-        </Container>
+        <div>
+          <Container className='container-box rounded'>
+            <Fade duration={500}>
+              <About />
+            </Fade>
+          </Container>
+        </div>
       </Parallax>
     </div>
 
     <div>
       <Container className='container-box rounded'>
-        <Fade duration={1000}>
-          <hr />
+        <Fade duration={500}>
           <Skills />
         </Fade>
       </Container>
@@ -50,7 +50,7 @@ const App = () => {
 
     <div>
       <Container className='container-box rounded'>
-        <Fade duration={1000}>
+        <Fade duration={500}>
           <hr />
           <Projects />
         </Fade>
@@ -59,8 +59,10 @@ const App = () => {
 
     <div>
       <Container className='container-box rounded'>
-        <hr />
-        <Contact />
+        <Fade duration={500}>
+          <hr />
+          <Contact />
+        </Fade>
       </Container>
     </div>
   </div>);

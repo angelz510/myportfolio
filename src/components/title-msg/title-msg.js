@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Typewriter from 'typewriter-effect';
 import styled from 'styled-components';
 
@@ -34,17 +35,17 @@ const TitleMsg = () => {
     <TitleMessage>
       <div className="titleMessage">
         <div className="heading">
-          <div className="main text-center mb-3">
+          <div className="main text-center mb-3 intro">
             Hi, I'm 
             <br />
             <span>
-              <strong>Angel Rodriguez</strong>
+              <strong className='intro'>Angel Rodriguez</strong>
             </span>
           </div>
           <div className="sub">
             <Typewriter
             options={{
-              strings: ["Software Engineer", "Youth Mentor", "Knowledge Explorer"],
+              strings: ["Software Engineer", "Youth Mentor", "Tech Geek"],
               autoStart: true,
               loop: true,
               delay: 50
