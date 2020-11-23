@@ -12,7 +12,7 @@ import Button from 'react-bootstrap/Button';
 const Projects = () => {
   return (
     <div id='projects' className='pt-3 pb-3'>
-      <h1 className='text-center font-details-b pb-4'>Projects</h1>
+      <h1 className='text-center font-details-b pb-3'>Projects</h1>
       <CardDeck>
         <Card>
           <Card.Img variant="top" src={hangryimg} className='projectImg' />
