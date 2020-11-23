@@ -5,6 +5,7 @@ import MyNavbar from "./components/navbar/navbar";
 import MyCarousel from './components/carousel/carousel';
 import TitleMsg from './components/title-msg/title-msg';
 import Projects from './components/projects/projects';
+import Footer from './components/footer/footer';
 //pages
 import About from './pages/about/about';
 import Skills from './pages/skills/skills';
@@ -65,6 +66,9 @@ const App = () => {
         </Fade>
       </Container>
     </div>
+
+    <hr />
+    <Footer />
   </div>);
 };
 
