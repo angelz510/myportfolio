@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
-import Profile from '../../assets/profile/Profile.png';
+//import Profile from '../../assets/profile/Profile.png';
 
 const About = () => {
   return (
@@ -20,7 +20,7 @@ const About = () => {
             {/* Profile Photo */}
             <Col xs={12} md={6}>
               <Row className='justify-content-center mb-2 mr-2'>
-                <Image className='profile justify-content-end img-fluid' alt='profile' src={Profile} thumbnail fluid/>
+                <Image className='profile justify-content-end img-fluid' alt='profile' thumbnail fluid/>
               </Row>
             </Col>
 
