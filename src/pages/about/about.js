@@ -4,10 +4,10 @@ import './about.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+//mport Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
-import Profile from '../../assets/profile/Profile.png';
+//import Profile from '../../assets/profile/Profile.png';
 
 const About = () => {
   return (
@@ -18,11 +18,11 @@ const About = () => {
           <Row className='pt-3 pb-5 align-items-center'>
 
             {/* Profile Photo */}
-            <Col xs={12} md={6}>
+            {/* <Col xs={12} md={6}>
               <Row className='justify-content-center mb-2 mr-2'>
                 <Image className='profile justify-content-end img-fluid' alt='profile' src={Profile} thumbnail fluid/>
               </Row>
-            </Col>
+            </Col> */}
 
             {/* Description */}
             <Col xs={12} md={6}>
