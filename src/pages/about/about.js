@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
-import Profile from '../../assets/profile/Profile.webp';
+import Profile from '../../assets/profile/Profile.png';
 
 const About = () => {
   return (
