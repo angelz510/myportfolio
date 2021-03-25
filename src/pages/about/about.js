@@ -20,7 +20,7 @@ const About = () => {
             {/* Profile Photo */}
             <Col xs={12} md={6}>
               <Row className='justify-content-center mb-2 mr-2'>
-                <Image className='profile justify-content-end img-fluid' alt='Responsive image' src={Profile} thumbnail fluid/>
+                <Image src={Profile} alt="profile" fluid/>
               </Row>
             </Col>
 
