@@ -4,6 +4,7 @@ import './projects.css';
 import hangryimg from '../../assets/projects/hangryimg.png';
 import rps from '../../assets/projects/rps.png';
 import dreamlink from '../../assets/projects/dreamlink.png';
+import budgetpls from '../../assets/projects/budgetpls.png';
 
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
@@ -14,6 +15,32 @@ const Projects = () => {
     <div id='projects' className='pt-3 pb-3'>
       <h1 className='text-center font-details-b pb-3'>Projects</h1>
       <CardDeck>
+
+      <Card>
+          <a href='https://budget-pls.herokuapp.com/' target="_blank" rel="noopener noreferrer">
+            <Card.Img variant="top" src={budgetpls} className='budgetImg' />
+          </a>
+          <Card.Body>
+            <Card.Title align='center'>
+              Budget Pls
+            </Card.Title>
+            <Card.Text>
+              Budgeting App. User can create profile. User can create, search, edit, remove expenses.
+              <br/>Used firebase and incorporated google login and authentication.
+              <br/>Tested components using jest and styled with Sass.
+            </Card.Text>
+          </Card.Body>
+          <Card.Footer className='card-footer'>
+            <small className="text-muted">Tech used: JS, Sass, React with Redux, Firebase.</small>
+            <a href='https://budget-pls.herokuapp.com/' target="_blank" rel="noopener noreferrer">
+              <Button className='m-2 btn-sm' variant="outline-dark">Check it out!</Button>
+            </a>
+            <a href='https://github.com/angelz510/expensify-app' target="_blank" rel="noopener noreferrer">
+              <Button className='m-2 btn-sm' variant="outline-dark">Source Code</Button>
+            </a>
+          </Card.Footer>
+        </Card>
+
         <Card>
           <Card.Img variant="top" src={hangryimg} className='projectImg' />
           <Card.Body>
