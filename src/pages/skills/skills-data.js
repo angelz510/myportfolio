@@ -3,7 +3,7 @@ import L_CSS3 from "../../assets/skills/css3.svg";
 import L_SASS from "../../assets/skills/sass-1.svg";
 import L_BOOTSTRAP from "../../assets/skills/bootstrap-4.svg";
 import L_REACT from "../../assets/skills/react.svg";
-//import L_REDUX from "../../assets/skills/redux.svg";
+import L_REDUX from "../../assets/skills/redux.svg";
 import L_REACT_ROUTER from "../../assets/skills/react-router.svg";
 import L_MATERIALUI from "../../assets/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/skills/react-bootstrap.svg";
@@ -14,6 +14,7 @@ import L_DJANGO from "../../assets/skills/django.svg";
 //import L_FLASK from "../../assets/skills/flask.svg";
 import L_MONGODB from "../../assets/skills/mongodb.svg";
 import L_POSTGRESQL from "../../assets/skills/postgresql.svg";
+import L_FIREBASE from "../../assets/skills/firebase.svg";
 //import L_MSSQL from "../../assets/skills/mssql.svg";
 import L_GIT from "../../assets/skills/git-icon.svg";
 import L_HEROKU from "../../assets/skills/heroku.svg";
@@ -62,12 +63,12 @@ export const skills = {
       imgSrc: L_REACT,
       skillName: "React JS",
     },
-    // {
-    //   link: "https://redux.js.org/",
-    //   imgAltText: "Redux",
-    //   imgSrc: L_REDUX,
-    //   skillName: "Redux",
-    // },
+    {
+      link: "https://redux.js.org/",
+      imgAltText: "Redux",
+      imgSrc: L_REDUX,
+      skillName: "Redux",
+    },
     {
       link: "https://reacttraining.com/react-router/",
       imgAltText: "React Router",
@@ -184,6 +185,12 @@ export const skills = {
       imgAltText: "MongoDB",
       imgSrc: L_MONGODB,
       skillName: "MongoDB",
+    },
+    {
+      link: "https://firebase.google.com/",
+      imgAltText: "Firebase",
+      imgSrc: L_FIREBASE,
+      skillName: "Firebase",
     },
   ],
   versionControl: [
