@@ -4,10 +4,10 @@ import './about.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-//mport Image from 'react-bootstrap/Image';
+import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
 
-//import Profile from '../../assets/profile/Profile.png';
+import Profile from '../../assets/profile/Profile.png';
 
 const About = () => {
   return (
@@ -18,21 +18,21 @@ const About = () => {
           <Row className='pt-3 pb-5 align-items-center'>
 
             {/* Profile Photo */}
-            {/* <Col xs={12} md={6}>
+            <Col xs={12} md={6}>
               <Row className='justify-content-center mb-2 mr-2'>
                 <Image className='profile justify-content-end img-fluid' alt='profile' src={Profile} thumbnail fluid/>
               </Row>
-            </Col> */}
+            </Col>
 
             {/* Description */}
             <Col xs={12} md={6}>
               <Row className='align-items-start p-2 my-details rounded'>
                 Hi! Im <strong>&nbsp;Angel Rodriguez</strong>
-                <br />A software engineer who enjoys full-stack development.
+                <br />A front-end software engineer.
                 <br />I am naturally curious how technologies work and how they can create an impact in our community.
-                <br />One of the things I enjoy is making thoughful, functional, and intuative web applications.
-                <br />I've build applications using Node.js, React, Django, and Express.
-                <br />Before development I was working in community, career coaching system-involved youth and guiding them toward career opportunities.
+                <br />One of the things I enjoy is making thoughtful, functional, and intuitive web applications.
+                <br />I've built applications using Node.js, React, Django, and Express.
+                <br />Before development, I was working in community, career coaching system-involved youth and guiding them toward career opportunities.
                 <br />When I'm not coding, I am playing soccer but due to stay at home orders I am often exploring Hyrule or Galar.
 
                 {/* Buttons Row */}
