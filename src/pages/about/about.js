@@ -20,7 +20,7 @@ const About = () => {
             {/* Profile Photo */}
             <Col xs={12} md={6}>
               <Row className='justify-content-center mb-2 mr-2'>
-                <Image className='profile justify-content-end img-fluid' alt='profile' src={Profile} thumbnail fluid/>
+                <Image className='profile justify-content-end img-fluid' alt='Responsive image' src={Profile} thumbnail fluid/>
               </Row>
             </Col>
 
@@ -28,7 +28,7 @@ const About = () => {
             <Col xs={12} md={6}>
               <Row className='align-items-start p-2 my-details rounded'>
                 Hi! Im <strong>&nbsp;Angel Rodriguez</strong>
-                <br />A front-end software engineer.
+                <br />A front-end software developer.
                 <br />I am naturally curious how technologies work and how they can create an impact in our community.
                 <br />One of the things I enjoy is making thoughtful, functional, and intuitive web applications.
                 <br />I've built applications using Node.js, React, Django, and Express.
