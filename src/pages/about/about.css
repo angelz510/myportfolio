@@ -11,8 +11,8 @@
   background-color: rgba(255, 255, 255, 0.747);
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 45rem) {
   img {
-    width: 350px;
+    width: 45rem;
   }
 }
