@@ -16,7 +16,6 @@ import { Parallax } from 'react-parallax';
 import Fade from 'react-reveal/Fade';
 import Bgimage from './assets/parallax/bg.jpg';
 
-
 const App = () => {
   return (
   <div className='App' style={{ position: 'relative' }}>
@@ -26,6 +25,7 @@ const App = () => {
 
     <div>
       <Parallax 
+        className="parallax"
         blur={{ min: -30, max: 30 }} 
         bgImage={Bgimage} 
         bgImageAlt="geometric" 

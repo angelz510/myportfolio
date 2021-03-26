@@ -12,10 +12,10 @@ const MyNavbar = () => {
       bg="dark" 
       variant="dark" 
       className="animate-navbar nav-theme justify-content-between">
-        <Navbar.Brand className="nav-title" href="#home">Angel Rodriguez</Navbar.Brand>
+        <Navbar.Brand className="nav-log" href="#home">Angel Rodriguez</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto nav-titles">
+          <Nav className="ml-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
             <Nav.Link href="#skills">Skills</Nav.Link>

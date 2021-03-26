@@ -19,7 +19,7 @@ const About = () => {
 
             {/* Profile Photo */}
             <Col xs={12} md={6}>
-              <Row className='justify-content-center mb-2 mr-2'>
+              <Row className='justify-content-center'>
                 <Image src={Profile} alt="profile" className="img-fluid rounded profile"/>
               </Row>
             </Col>
