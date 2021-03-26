@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.54cd2672.chunk.css",
-    "main.js": "/myportfolio/static/js/main.620e2519.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.620e2519.chunk.js.map",
+    "main.js": "/myportfolio/static/js/main.bb712bd8.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.bb712bd8.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.70c763bf.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.70c763bf.js.map",
     "static/js/2.b8de8091.chunk.js": "/myportfolio/static/js/2.b8de8091.chunk.js",
@@ -25,11 +25,11 @@
     "static/media/heroku.73be03b3.svg": "/myportfolio/static/media/heroku.73be03b3.svg",
     "static/media/html-5.821ba738.svg": "/myportfolio/static/media/html-5.821ba738.svg",
     "static/media/javascript.ba40d6a9.svg": "/myportfolio/static/media/javascript.ba40d6a9.svg",
-    "static/media/keyboard.a82b6654.webp": "/myportfolio/static/media/keyboard.a82b6654.webp",
+    "static/media/keyboard.e684c4ae.webp": "/myportfolio/static/media/keyboard.e684c4ae.webp",
     "static/media/material-ui-1.fd510ed8.svg": "/myportfolio/static/media/material-ui-1.fd510ed8.svg",
     "static/media/mongodb.d89a6eeb.svg": "/myportfolio/static/media/mongodb.d89a6eeb.svg",
     "static/media/nodejs.52cbf9a8.svg": "/myportfolio/static/media/nodejs.52cbf9a8.svg",
-    "static/media/oakport.ce6f1dc5.webp": "/myportfolio/static/media/oakport.ce6f1dc5.webp",
+    "static/media/oakport.f21e67e1.webp": "/myportfolio/static/media/oakport.f21e67e1.webp",
     "static/media/postgresql.ae92b576.svg": "/myportfolio/static/media/postgresql.ae92b576.svg",
     "static/media/python.e6d7dc73.svg": "/myportfolio/static/media/python.e6d7dc73.svg",
     "static/media/react-bootstrap.534ba574.svg": "/myportfolio/static/media/react-bootstrap.534ba574.svg",
@@ -39,12 +39,12 @@
     "static/media/rps.3a40c0db.png": "/myportfolio/static/media/rps.3a40c0db.png",
     "static/media/sass-1.8aa78a83.svg": "/myportfolio/static/media/sass-1.8aa78a83.svg",
     "static/media/styled-components.2e00d138.svg": "/myportfolio/static/media/styled-components.2e00d138.svg",
-    "static/media/wireframes.ba3667b5.webp": "/myportfolio/static/media/wireframes.ba3667b5.webp"
+    "static/media/wireframes.cd1be5e9.webp": "/myportfolio/static/media/wireframes.cd1be5e9.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.70c763bf.js",
     "static/js/2.b8de8091.chunk.js",
     "static/css/main.54cd2672.chunk.css",
-    "static/js/main.620e2519.chunk.js"
+    "static/js/main.bb712bd8.chunk.js"
   ]
 }
