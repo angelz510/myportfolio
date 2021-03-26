@@ -27,7 +27,7 @@ const About = () => {
             {/* Description */}
             <Col xs={12} md={6}>
               <Row className='align-items-start p-2 my-details rounded'>
-                Hi! Im <strong>&nbsp;Angel Rodriguez</strong>
+                Hi! I'm <strong>&nbsp;Angel Rodriguez</strong>
                 <br />A front-end software developer.
                 <br />I am naturally curious how technologies work and how they can create an impact in our community.
                 <br />One of the things I enjoy is making thoughtful, functional, and intuitive web applications.
