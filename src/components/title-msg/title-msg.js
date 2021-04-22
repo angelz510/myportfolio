@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Typewriter from 'typewriter-effect';
 import styled from 'styled-components';
 
@@ -36,7 +35,7 @@ const TitleMsg = () => {
       <div className="titleMessage">
         <div className="heading">
           <div className="main text-center mb-3 intro">
-            Hi, I'm 
+            {/* Hi, I'm  */}
             <br />
             <span>
               <strong className='intro'>Angel Rodriguez</strong>

@@ -31,7 +31,7 @@ const About = () => {
                 <br />A front-end software developer.
                 <br />I am naturally curious how technologies work and how they can create an impact in our community.
                 <br />One of the things I enjoy is making thoughtful, functional, and intuitive web applications.
-                <br />I've built applications using Node.js, React, Django, and Express.
+                <br />I've built applications using Node.js, React, Django, Express, MERN, and more.
                 <br />Before development, I was working in community, career coaching system-involved youth and guiding them toward career opportunities.
                 <br />When I'm not coding, I am playing soccer but due to stay at home orders I am often exploring Hyrule or Galar.
 
